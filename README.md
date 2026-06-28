@@ -49,7 +49,7 @@ You need some temporary internet path first: Wi-Fi, Ethernet, or USB tethering.
 sudo dnf install -y git
 git clone https://github.com/fiboromcom/l850gl-fcc-unlock-linux.git
 cd l850gl-fcc-unlock-linux
-./bootstrap-fedora.sh --yes-i-understand-regulatory-ris
+./bootstrap-fedora.sh --yes-i-understand-regulatory-risk
 ```
 
 Running `./bootstrap-fedora.sh` without the confirmation flag prints the warning and exits without writing anything.
